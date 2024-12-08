@@ -8,9 +8,7 @@ docker-compose.override.yml
 .env
 
 # Nextcloud config and data directories
-nextcloud/cert
-nextcloud/config
-nextcloud/data
+nextcloud/*
 
 # Redis data
 redis/
