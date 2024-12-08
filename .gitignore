@@ -1,0 +1,32 @@
+# Docker files
+*.log
+*.pid
+docker-compose.override.yml
+.docker/
+
+# Environment files
+.env
+
+# Nextcloud config and data directories
+nextcloud/cert
+nextcloud/config
+nextcloud/data
+
+# Redis data
+redis/
+
+# Database data
+db/
+
+# IDE/editor settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.swp
+*.bak
